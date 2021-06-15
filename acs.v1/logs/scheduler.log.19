@@ -1,0 +1,5 @@
+2021-06-14 14:04:19,096 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for acs.v1
+2021-06-14 14:04:19,255 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for acs.v1
+2021-06-14 14:04:19,587 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for acs.v1
+2021-06-14 14:04:19,688 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for acs.v1
+2021-06-14 14:04:19,947 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for acs.v1

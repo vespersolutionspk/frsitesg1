@@ -1,0 +1,76 @@
+2021-06-08 07:33:36,944 ERROR frappe Could not take error snapshot: 'User' object has no attribute 'docstatus'
+Site: acs.v1
+Form Dict: {'doctype': 'DocType', 'fields': '["`tabDocType`.`name`","`tabDocType`.`owner`","`tabDocType`.`creation`","`tabDocType`.`modified`","`tabDocType`.`modified_by`","`tabDocType`.`_user_tags`","`tabDocType`.`_comments`","`tabDocType`.`_assign`","`tabDocType`.`_liked_by`","`tabDocType`.`docstatus`","`tabDocType`.`parent`","`tabDocType`.`parenttype`","`tabDocType`.`parentfield`","`tabDocType`.`idx`","`tabDocType`.`module`","`tabDocType`.`color`"]', 'filters': '[["DocType","name","like","%Policies%"],["DocType","name","=","Patch Log"]]', 'order_by': '`tabDocType`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true'}
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/app.py", line 54, in application
+    init_request(request)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/app.py", line 128, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/auth.py", line 52, in __init__
+    frappe.local.login_manager = LoginManager()
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/auth.py", line 114, in __init__
+    self.make_session(resume=True)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/auth.py", line 196, in make_session
+    full_name=self.full_name, user_type=self.user_type)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/sessions.py", line 189, in __init__
+    self.resume()
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/sessions.py", line 256, in resume
+    validate_ip_address(self.user)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/auth.py", line 380, in validate_ip_address
+    user = frappe.get_cached_doc("User", user) if not frappe.flags.in_test else frappe.get_doc("User", user)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/__init__.py", line 807, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/document.py", line 74, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/document.py", line 112, in __init__
+    self.load_from_db()
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/document.py", line 141, in load_from_db
+    if not getattr(self, "_metaclass", False) and self.meta.issingle:
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/base_document.py", line 91, in meta
+    self._meta = frappe.get_meta(self.doctype)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
+    meta = Meta(doctype)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/meta.py", line 84, in __init__
+    self.process()
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/meta.py", line 105, in process
+    self.set_custom_permissions()
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/meta.py", line 417, in set_custom_permissions
+    filters=dict(parent=self.name), update=dict(doctype='Custom DocPerm'))
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1435, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/db_query.py", line 101, in execute
+    self.columns = self.get_table_columns()
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/db_query.py", line 338, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/meta.py", line 49, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/database/database.py", line 896, in get_table_columns
+    raise self.TableMissingError('DocType', doctype)
+pymysql.err.ProgrammingError: ('DocType', 'Custom DocPerm')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.6/inspect.py", line 1262, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.6/inspect.py", line 1259, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.6/reprlib.py", line 55, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.6/pydoc.py", line 1042, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/model/document.py", line 1354, in __repr__
+    docstatus = f" docstatus={self.docstatus}" if self.docstatus else ""
+AttributeError: 'User' object has no attribute 'docstatus'

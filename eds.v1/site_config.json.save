@@ -1,0 +1,10 @@
+{
+ "domains": [
+  "engage.vertex360.com.au"
+ ], 
+ "db_password": "6OvG5PE8imhElaQK", 
+ "db_type": "mariadb", 
+ "db_name": "_a38b8fdd5be75c89"
+"ssl_certificate": "/etc/letsencrypt/live/engage.vertex360.com.au/fullchain.pem",
+  "ssl_certificate_key": "/etc/letsencrypt/live/engage.vertex360.com.au/privkey.pem"
+}

@@ -1,0 +1,1193 @@
+2021-06-14 20:49:22,343 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 20:50:22,568 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 20:51:22,751 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 20:52:23,467 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 20:52:25,838 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 20:52:25,976 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 20:52:26,088 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 20:52:26,206 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 20:52:26,291 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 20:52:26,647 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 20:52:26,798 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 20:52:27,096 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 20:52:27,238 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 20:52:27,547 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 20:52:27,695 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 20:52:27,946 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 20:53:23,885 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 20:54:24,313 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 20:55:24,486 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 20:56:24,975 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 20:56:27,161 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 20:56:27,287 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 20:56:27,374 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 20:56:27,505 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 20:56:27,591 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 20:56:28,045 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 20:56:28,187 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 20:56:28,551 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 20:56:28,747 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 20:56:29,085 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 20:56:29,239 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 20:56:29,516 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 20:57:25,361 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 20:58:25,786 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 20:59:26,083 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:00:26,475 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:00:26,486 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for eds.v1
+2021-06-14 21:00:26,963 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for eds.v1
+2021-06-14 21:00:27,098 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for eds.v1
+2021-06-14 21:00:27,719 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for eds.v1
+2021-06-14 21:00:27,850 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for eds.v1
+2021-06-14 21:00:28,194 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for eds.v1
+2021-06-14 21:00:28,349 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for eds.v1
+2021-06-14 21:00:28,705 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for eds.v1
+2021-06-14 21:00:28,797 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for eds.v1
+2021-06-14 21:00:29,137 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for eds.v1
+2021-06-14 21:00:29,263 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for eds.v1
+2021-06-14 21:00:29,609 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for eds.v1
+2021-06-14 21:00:29,750 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for eds.v1
+2021-06-14 21:00:30,097 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for eds.v1
+2021-06-14 21:00:30,266 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for eds.v1
+2021-06-14 21:00:30,637 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for eds.v1
+2021-06-14 21:00:30,800 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:00:30,940 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:00:31,025 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:00:31,151 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:00:31,298 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:00:31,675 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:00:31,831 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:00:32,129 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:00:32,222 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:00:32,511 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:00:32,671 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:00:32,927 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:00:33,081 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:00:33,449 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:00:33,580 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:00:33,998 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:00:34,166 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:00:34,552 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:01:27,032 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:02:27,413 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:03:27,855 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:04:28,328 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:04:30,843 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:04:30,983 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:04:31,081 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:04:31,220 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:04:31,342 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:04:31,703 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:04:31,846 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:04:32,240 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:04:32,331 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:04:32,620 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:04:32,708 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:04:32,941 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:05:28,858 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:06:29,191 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:07:29,595 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:08:30,181 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:08:32,592 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:08:32,726 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:08:32,879 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:08:33,017 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:08:33,173 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:08:33,555 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:08:33,707 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:08:33,997 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:08:34,085 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:08:34,370 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:08:34,519 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:08:34,763 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:09:30,584 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:10:30,897 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:11:31,291 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:12:31,735 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:12:34,319 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:12:34,563 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:12:34,746 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:12:34,912 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:12:35,034 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:12:35,419 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:12:35,569 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:12:35,964 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:12:36,119 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:12:36,423 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:12:36,574 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:12:36,823 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:13:32,078 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:14:32,479 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:15:33,133 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:15:35,038 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:15:35,407 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:15:35,557 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:15:36,096 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:15:36,200 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:15:36,852 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:16:33,615 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:16:36,130 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:16:36,275 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:16:36,423 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:16:36,562 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:16:36,731 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:16:37,136 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:16:37,237 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:16:37,526 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:16:37,680 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:16:37,996 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:16:38,099 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:16:38,503 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:17:34,022 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:18:34,422 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:19:34,851 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:20:35,243 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:20:37,779 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:20:37,998 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:20:38,125 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:20:38,256 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:20:38,397 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:20:38,769 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:20:38,944 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:20:39,358 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:20:39,515 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:20:39,819 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:20:39,975 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:20:40,224 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:21:35,590 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:22:35,936 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:23:36,320 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:24:36,707 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:24:39,342 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:24:39,478 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:24:39,666 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:24:39,882 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:24:40,071 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:24:40,492 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:24:40,641 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:24:40,937 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:24:41,083 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:24:41,397 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:24:41,481 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:24:41,710 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:25:37,156 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:26:37,539 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:27:37,929 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:28:38,394 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:28:40,711 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:28:40,851 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:28:41,004 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:28:41,142 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:28:41,300 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:28:41,677 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:28:41,834 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:28:42,135 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:28:42,223 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:28:42,524 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:28:42,689 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:28:42,944 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:29:38,971 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:30:39,409 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:30:41,097 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:30:41,521 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:30:41,625 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:30:42,135 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:30:42,288 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:30:42,718 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:31:39,795 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:32:40,281 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:32:42,607 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:32:42,743 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:32:42,852 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:32:43,067 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:32:43,219 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:32:43,780 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:32:43,906 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:32:44,301 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:32:44,446 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:32:44,792 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:32:44,879 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:32:45,214 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:33:40,688 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:34:41,057 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:35:41,470 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:36:41,961 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:36:44,100 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:36:44,224 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:36:44,309 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:36:44,430 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:36:44,587 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:36:44,978 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:36:45,134 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:36:45,454 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:36:45,645 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:36:46,038 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:36:46,205 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:36:46,492 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:37:42,326 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:38:42,732 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:39:43,140 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:40:43,553 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:40:45,949 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:40:46,087 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:40:46,213 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:40:46,480 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:40:46,641 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:40:47,041 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:40:47,210 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:40:47,510 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:40:47,606 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:40:47,904 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:40:48,074 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:40:48,423 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:41:44,106 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:42:44,472 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:43:44,851 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:44:45,400 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:44:47,850 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:44:47,973 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:44:48,119 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:44:48,361 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:44:48,511 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:44:48,923 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:44:49,045 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:44:49,331 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:44:49,416 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:44:49,700 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:44:49,844 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:44:50,086 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:45:45,846 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:45:47,727 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:45:48,100 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 21:45:48,262 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:45:48,794 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 21:45:48,946 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:45:49,494 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 21:46:46,371 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:47:46,857 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:48:47,452 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:48:49,931 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:48:50,074 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:48:50,217 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:48:50,356 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:48:50,510 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:48:50,954 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:48:51,106 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:48:51,432 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:48:51,594 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:48:51,912 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:48:52,072 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:48:52,335 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:49:47,872 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:50:48,267 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:51:48,654 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:52:49,017 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:52:49,123 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:52:49,263 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:52:49,411 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:52:49,640 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:52:49,811 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:52:50,290 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:52:50,443 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:52:50,755 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:52:50,935 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:52:51,319 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:52:51,468 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:52:51,821 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:53:49,298 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:54:49,707 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:55:50,083 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:56:50,564 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:56:53,261 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 21:56:53,409 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 21:56:53,557 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:56:53,697 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 21:56:53,862 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:56:54,247 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 21:56:54,425 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:56:54,824 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 21:56:54,994 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:56:55,314 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 21:56:55,477 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 21:56:55,831 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 21:57:50,938 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:58:51,460 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 21:59:51,941 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:00:52,722 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:01:01,030 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for eds.v1
+2021-06-14 22:01:01,429 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for eds.v1
+2021-06-14 22:01:01,583 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for eds.v1
+2021-06-14 22:01:02,214 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for eds.v1
+2021-06-14 22:01:02,358 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for eds.v1
+2021-06-14 22:01:02,861 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for eds.v1
+2021-06-14 22:01:03,028 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for eds.v1
+2021-06-14 22:01:03,385 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for eds.v1
+2021-06-14 22:01:03,553 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for eds.v1
+2021-06-14 22:01:04,004 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for eds.v1
+2021-06-14 22:01:04,160 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for eds.v1
+2021-06-14 22:01:04,519 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for eds.v1
+2021-06-14 22:01:04,613 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for eds.v1
+2021-06-14 22:01:04,975 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for eds.v1
+2021-06-14 22:01:05,120 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for eds.v1
+2021-06-14 22:01:05,480 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for eds.v1
+2021-06-14 22:01:05,619 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 22:01:05,753 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 22:01:05,909 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:01:06,049 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:01:06,136 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:01:06,594 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:01:06,706 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:01:07,040 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:01:07,129 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:01:07,523 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:01:07,669 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 22:01:07,920 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 22:01:08,073 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 22:01:08,448 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 22:01:08,543 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 22:01:09,064 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 22:01:09,227 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 22:01:09,612 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 22:01:53,166 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:02:53,533 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:03:53,990 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:04:54,481 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:04:57,047 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 22:04:57,190 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 22:04:57,332 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:04:57,469 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:04:57,591 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:04:57,981 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:04:58,071 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:04:58,455 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:04:58,602 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:04:58,904 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:04:59,065 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 22:04:59,398 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 22:05:55,043 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:06:55,491 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:07:55,969 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:08:56,433 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:08:58,856 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 22:08:58,994 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 22:08:59,131 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:08:59,266 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:08:59,414 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:08:59,806 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:08:59,969 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:09:00,274 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:09:00,423 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:09:00,736 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:09:00,822 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 22:09:01,112 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 22:09:56,806 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:10:57,273 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:11:57,659 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:12:58,110 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:13:00,792 INFO scheduler Scheduled Job Start: frappe.monitor.flush for eds.v1
+2021-06-14 22:13:00,996 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for eds.v1
+2021-06-14 22:13:01,142 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:13:01,280 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 22:13:01,439 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:13:01,836 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 22:13:01,987 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:13:02,280 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 22:13:02,441 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:13:02,820 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 22:13:02,989 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 22:13:03,244 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 22:13:58,514 DEBUG scheduler Queued events for site eds.v1
+2021-06-14 22:14:58,686 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:15:58,887 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:16:59,073 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:17:59,223 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:18:59,402 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:19:59,603 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:20:59,784 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:21:59,965 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:23:00,170 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:24:00,369 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:25:00,588 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:26:00,814 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:27:01,011 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:28:01,207 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:29:01,399 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:30:01,606 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:31:01,787 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:32:01,974 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:33:02,156 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:34:02,327 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:35:02,532 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:36:02,752 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:37:02,960 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:38:03,173 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:39:03,369 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:40:03,586 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:41:03,791 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:42:03,981 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:43:04,188 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:44:04,391 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:45:04,609 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:46:04,814 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:47:04,998 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:48:05,194 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:49:05,391 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:50:05,575 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:51:05,753 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:52:05,934 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:53:06,087 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:54:06,295 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:55:06,500 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:56:06,682 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:57:06,878 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:58:07,076 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 22:59:07,258 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:00:07,456 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:01:07,665 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:02:07,835 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:03:08,033 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:04:08,229 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:05:08,416 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:06:08,575 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-14 23:07:08,745 ERROR scheduler Exception in Enqueue Events for Site eds.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+

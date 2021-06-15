@@ -1,0 +1,13 @@
+{
+ "nginx_port": 80, 
+ "db_password": "botJjUiXfWOq5dam", 
+ "db_type": "mariadb", 
+ "encryption_key": "rBQ8b49rPC6qJGZ2O1OVevAWzc356AWcCb-Q_CR1PT8=", 
+ "db_name": "_188804e03fdede13", 
+ "server_script_enabled": true, 
+ "maintenance_mode": 0, 
+ "domains": [
+  "acs.vertex360.com.au"
+ ], 
+ "developer_mode": 1
+}

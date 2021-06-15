@@ -1,0 +1,6 @@
+2021-06-12 11:29:03,143 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-12 11:29:03,443 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-12 11:29:03,530 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-12 11:29:03,828 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-12 11:29:03,976 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-12 11:29:04,220 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local

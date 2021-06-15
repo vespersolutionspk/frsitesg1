@@ -1,0 +1,811 @@
+2021-06-11 20:50:04,160 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:51:04,527 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:52:04,949 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:52:07,083 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 20:52:07,222 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 20:52:07,315 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 20:52:07,439 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 20:52:07,602 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 20:52:07,989 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 20:52:08,074 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 20:52:08,359 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 20:52:08,508 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 20:52:08,821 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 20:52:08,982 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 20:52:09,233 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 20:53:05,302 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:54:05,667 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:55:06,041 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:56:06,465 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:56:08,803 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 20:56:08,942 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 20:56:09,098 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 20:56:09,241 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 20:56:09,397 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 20:56:09,786 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 20:56:09,890 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 20:56:10,182 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 20:56:10,271 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 20:56:10,571 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 20:56:10,660 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 20:56:10,899 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 20:57:06,841 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:58:07,232 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 20:59:07,598 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:00:08,257 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:00:16,235 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for bench-manager.local
+2021-06-11 21:00:16,659 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for bench-manager.local
+2021-06-11 21:00:16,817 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for bench-manager.local
+2021-06-11 21:00:17,371 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for bench-manager.local
+2021-06-11 21:00:17,475 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for bench-manager.local
+2021-06-11 21:00:17,947 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for bench-manager.local
+2021-06-11 21:00:18,120 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for bench-manager.local
+2021-06-11 21:00:18,484 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for bench-manager.local
+2021-06-11 21:00:18,578 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for bench-manager.local
+2021-06-11 21:00:18,929 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for bench-manager.local
+2021-06-11 21:00:19,094 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for bench-manager.local
+2021-06-11 21:00:19,458 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for bench-manager.local
+2021-06-11 21:00:19,608 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for bench-manager.local
+2021-06-11 21:00:19,974 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for bench-manager.local
+2021-06-11 21:00:20,104 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for bench-manager.local
+2021-06-11 21:00:20,455 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for bench-manager.local
+2021-06-11 21:00:20,607 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:00:20,747 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:00:20,901 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:00:21,040 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:00:21,198 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:00:21,584 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:00:21,739 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:00:22,120 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:00:22,200 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:00:22,588 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:00:22,719 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:00:22,966 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:00:23,051 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:00:23,421 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:00:23,570 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:00:23,997 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:00:24,148 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:00:24,531 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:01:08,626 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:02:08,943 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:03:09,442 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:04:09,918 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:04:12,141 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:04:12,266 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:04:12,382 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:04:12,509 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:04:12,600 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:04:12,964 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:04:13,122 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:04:13,417 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:04:13,566 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:04:13,876 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:04:14,023 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:04:14,271 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:05:10,309 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:06:10,692 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:07:11,046 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:08:11,496 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:08:13,938 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:08:14,063 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:08:14,192 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:08:14,317 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:08:14,438 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:08:14,812 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:08:14,960 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:08:15,289 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:08:15,449 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:08:15,760 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:08:15,910 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:08:16,161 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:09:11,884 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:10:12,309 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:11:12,672 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:12:13,028 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:12:15,452 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:12:15,595 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:12:15,743 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:12:15,881 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:12:16,035 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:12:16,420 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:12:16,505 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:12:16,789 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:12:16,943 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:12:17,264 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:12:17,351 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:12:17,590 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:13:13,366 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:14:13,747 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:15:14,112 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:15:15,860 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:15:16,229 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:15:16,381 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:15:16,805 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:15:16,951 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:15:17,322 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:16:14,597 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:16:16,729 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:16:16,868 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:16:16,954 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:16:17,077 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:16:17,164 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:16:17,530 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:16:17,686 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:16:17,989 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:16:18,111 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:16:18,412 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:16:18,575 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:16:18,828 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:17:14,976 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:18:15,360 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:19:15,742 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:20:16,244 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:20:18,397 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:20:18,522 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:20:18,609 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:20:18,735 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:20:18,821 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:20:19,198 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:20:19,284 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:20:19,572 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:20:19,658 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:20:19,965 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:20:20,118 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:20:20,373 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:21:16,630 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:22:16,937 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:23:17,314 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:24:17,762 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:24:19,910 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:24:20,045 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:24:20,126 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:24:20,251 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:24:20,336 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:24:20,707 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:24:20,800 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:24:21,095 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:24:21,250 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:24:21,558 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:24:21,700 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:24:21,949 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:25:18,130 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:26:18,460 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:27:18,833 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:28:19,259 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:28:21,643 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:28:21,768 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:28:21,920 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:28:22,057 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:28:22,215 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:28:22,603 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:28:22,705 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:28:22,993 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:28:23,078 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:28:23,373 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:28:23,527 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:28:23,804 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:29:19,657 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:30:20,039 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:30:21,632 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:30:21,995 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:30:22,153 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:30:22,578 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:30:22,667 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:30:23,030 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:31:20,410 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:32:20,872 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:32:23,230 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:32:23,369 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:32:23,520 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:32:23,661 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:32:23,819 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:32:24,204 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:32:24,333 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:32:24,622 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:32:24,781 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:32:25,092 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:32:25,249 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:32:25,500 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:33:21,242 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:34:21,637 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:35:22,025 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:36:22,517 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:36:24,654 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:36:24,792 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:36:24,950 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:36:25,102 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:36:25,257 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:36:25,634 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:36:25,721 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:36:26,002 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:36:26,149 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:36:26,460 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:36:26,616 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:36:26,867 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:37:22,895 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:38:23,319 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:39:23,688 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:40:24,195 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:40:26,578 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:40:26,716 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:40:26,804 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:40:26,931 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:40:27,061 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:40:27,442 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:40:27,597 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:40:27,948 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:40:28,079 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:40:28,416 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:40:28,561 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:40:28,801 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:41:24,723 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:42:25,103 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:43:25,482 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:44:25,940 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:44:28,125 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:44:28,250 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:44:28,393 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:44:28,532 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:44:28,662 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:44:29,038 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:44:29,120 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:44:29,411 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:44:29,561 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:44:29,873 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:44:30,045 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:44:30,310 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:45:26,328 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:45:27,902 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:45:28,251 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 21:45:28,412 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:45:28,837 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 21:45:28,975 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:45:29,343 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 21:46:26,722 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:47:27,083 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:48:27,547 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:48:29,815 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:48:29,951 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:48:30,036 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:48:30,160 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:48:30,314 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:48:30,702 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:48:30,849 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:48:31,146 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:48:31,303 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:48:31,613 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:48:31,756 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:48:32,000 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:49:27,939 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:50:28,330 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:51:28,746 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:52:29,135 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:52:31,733 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:52:31,859 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:52:32,009 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:52:32,148 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:52:32,236 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:52:32,624 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:52:32,778 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:52:33,084 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:52:33,247 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:52:33,566 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:52:33,717 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:52:33,972 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:53:29,519 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:54:29,898 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:55:30,288 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:56:30,806 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:56:33,071 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:56:33,209 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 21:56:33,360 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:56:33,500 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 21:56:33,657 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:56:34,038 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 21:56:34,193 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:56:34,492 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 21:56:34,654 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:56:35,020 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 21:56:35,101 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:56:35,336 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 21:57:31,222 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:58:31,587 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 21:59:31,988 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:00:32,696 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:00:40,453 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for bench-manager.local
+2021-06-11 22:00:40,868 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for bench-manager.local
+2021-06-11 22:00:41,029 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for bench-manager.local
+2021-06-11 22:00:41,561 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for bench-manager.local
+2021-06-11 22:00:41,717 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for bench-manager.local
+2021-06-11 22:00:42,077 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for bench-manager.local
+2021-06-11 22:00:42,176 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for bench-manager.local
+2021-06-11 22:00:42,515 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for bench-manager.local
+2021-06-11 22:00:42,609 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for bench-manager.local
+2021-06-11 22:00:42,951 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for bench-manager.local
+2021-06-11 22:00:43,111 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for bench-manager.local
+2021-06-11 22:00:43,466 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for bench-manager.local
+2021-06-11 22:00:43,555 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for bench-manager.local
+2021-06-11 22:00:43,897 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for bench-manager.local
+2021-06-11 22:00:44,051 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for bench-manager.local
+2021-06-11 22:00:44,421 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for bench-manager.local
+2021-06-11 22:00:44,582 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:00:44,721 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:00:44,854 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:00:44,987 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:00:45,141 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:00:45,529 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:00:45,614 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:00:45,900 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:00:45,986 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:00:46,284 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:00:46,434 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:00:46,685 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:00:46,842 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:00:47,208 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:00:47,299 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:00:47,716 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:00:47,809 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:00:48,178 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:01:33,068 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:02:33,408 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:03:33,768 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:04:34,215 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:04:36,488 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:04:36,637 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:04:36,796 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:04:36,947 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:04:37,093 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:04:37,474 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:04:37,621 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:04:37,917 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:04:38,030 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:04:38,469 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:04:38,625 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:04:38,878 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:05:34,530 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:06:34,914 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:07:35,293 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:08:35,728 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:08:37,987 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:08:38,136 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:08:38,222 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:08:38,345 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:08:38,500 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:08:38,934 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:08:39,094 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:08:39,391 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:08:39,545 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:08:39,855 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:08:40,006 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:08:40,261 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:09:36,060 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:10:36,420 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:11:36,852 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:12:37,368 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:12:39,446 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:12:39,571 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:12:39,720 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:12:39,857 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:12:39,984 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:12:40,342 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:12:40,498 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:12:40,794 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:12:40,943 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:12:41,252 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:12:41,403 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:12:41,652 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:13:37,775 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:14:38,177 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:15:38,661 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:15:40,202 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:15:40,557 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:15:40,706 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:15:41,112 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:15:41,229 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:15:41,595 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:16:39,110 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:16:41,362 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:16:41,487 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:16:41,641 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:16:41,780 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:16:41,864 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:16:42,240 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:16:42,379 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:16:42,674 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:16:42,830 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:16:43,136 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:16:43,293 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:16:43,541 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:17:39,449 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:18:39,874 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:19:40,249 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:20:40,731 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:20:42,838 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:20:42,964 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:20:43,119 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:20:43,257 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:20:43,400 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:20:43,781 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:20:43,929 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:20:44,236 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:20:44,361 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:20:44,667 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:20:44,813 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:20:45,065 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:21:41,123 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:22:41,508 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:23:41,882 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:24:42,303 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:24:44,987 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:24:45,112 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:24:45,239 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:24:45,361 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:24:45,448 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:24:45,810 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:24:45,971 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:24:46,273 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:24:46,414 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:24:46,714 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:24:46,877 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:24:47,400 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:25:42,624 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:26:42,986 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:27:43,347 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:28:43,790 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:28:45,971 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:28:46,097 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:28:46,182 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:28:46,307 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:28:46,393 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:28:46,763 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:28:46,850 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:28:47,140 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:28:47,228 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:28:47,526 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:28:47,613 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:28:47,848 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:29:44,164 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:30:44,589 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:30:46,188 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:30:46,552 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:30:46,706 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:30:47,143 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:30:47,297 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:30:47,675 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:31:44,936 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:32:45,355 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:32:47,725 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:32:47,864 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:32:47,988 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:32:48,118 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:32:48,263 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:32:48,647 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:32:48,733 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:32:49,018 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:32:49,156 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:32:49,463 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:32:49,605 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:32:49,867 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:33:45,729 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:34:46,114 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:35:46,501 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:36:46,940 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:36:49,198 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:36:49,335 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:36:49,497 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:36:49,676 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:36:49,822 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:36:50,200 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:36:50,355 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:36:50,660 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:36:50,749 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:36:51,046 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:36:51,176 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:36:51,409 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:37:47,320 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:38:47,696 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:39:48,054 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:40:48,494 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:40:50,766 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:40:50,903 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:40:51,056 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:40:51,193 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:40:51,279 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:40:51,651 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:40:51,750 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:40:52,127 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:40:52,281 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:40:52,593 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:40:52,741 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:40:52,990 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:41:48,904 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:42:49,235 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:43:49,641 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:44:50,060 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:44:52,291 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:44:52,418 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:44:52,568 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:44:52,705 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:44:52,847 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:44:53,233 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:44:53,380 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:44:53,764 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:44:53,910 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:44:54,222 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:44:54,378 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:44:54,629 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:45:50,376 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:45:51,931 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:45:52,287 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 22:45:52,383 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:45:52,792 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 22:45:52,885 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:45:53,246 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 22:46:50,745 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:47:51,133 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:48:51,581 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:48:53,762 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:48:53,887 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:48:53,974 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:48:54,098 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:48:54,182 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:48:54,549 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:48:54,674 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:48:54,964 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:48:55,053 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:48:55,346 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:48:55,441 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:48:55,683 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:49:51,967 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:50:52,349 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:51:52,735 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:52:53,256 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:52:55,776 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:52:55,905 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:52:56,057 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:52:56,200 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:52:56,319 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:52:56,772 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:52:56,921 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:52:57,237 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:52:57,380 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:52:57,795 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:52:57,936 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:52:58,180 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:53:53,647 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:54:54,060 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:55:54,483 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:56:54,971 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:56:57,334 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:56:57,484 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 22:56:57,652 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:56:57,800 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 22:56:57,891 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:56:58,357 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 22:56:58,521 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:56:58,838 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 22:56:59,003 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:56:59,314 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 22:56:59,400 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:56:59,629 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 22:57:55,334 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:58:55,831 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 22:59:56,244 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:00:56,964 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:01:05,027 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for bench-manager.local
+2021-06-11 23:01:05,444 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for bench-manager.local
+2021-06-11 23:01:05,540 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for bench-manager.local
+2021-06-11 23:01:06,074 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for bench-manager.local
+2021-06-11 23:01:06,235 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for bench-manager.local
+2021-06-11 23:01:06,599 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for bench-manager.local
+2021-06-11 23:01:06,697 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for bench-manager.local
+2021-06-11 23:01:07,037 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for bench-manager.local
+2021-06-11 23:01:07,130 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for bench-manager.local
+2021-06-11 23:01:07,474 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for bench-manager.local
+2021-06-11 23:01:07,565 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for bench-manager.local
+2021-06-11 23:01:07,911 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for bench-manager.local
+2021-06-11 23:01:08,002 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for bench-manager.local
+2021-06-11 23:01:08,349 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for bench-manager.local
+2021-06-11 23:01:08,504 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for bench-manager.local
+2021-06-11 23:01:08,867 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for bench-manager.local
+2021-06-11 23:01:09,030 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:01:09,169 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:01:09,325 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:01:09,465 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:01:09,553 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:01:09,931 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:01:10,078 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:01:10,381 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:01:10,536 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:01:10,849 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:01:11,006 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:01:11,258 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:01:11,409 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 23:01:11,779 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 23:01:11,939 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 23:01:12,367 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 23:01:12,455 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 23:01:12,822 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 23:01:57,292 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:02:57,693 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:03:58,087 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:04:58,535 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:05:00,892 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:05:01,031 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:05:01,189 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:05:01,331 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:05:01,422 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:05:01,824 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:05:01,909 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:05:02,226 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:05:02,369 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:05:02,694 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:05:02,777 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:05:03,022 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:05:58,919 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:06:59,300 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:07:59,686 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:09:00,065 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:09:02,337 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:09:02,476 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:09:02,649 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:09:02,831 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:09:02,920 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:09:03,295 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:09:03,382 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:09:03,673 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:09:03,827 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:09:04,140 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:09:04,297 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:09:04,549 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:10:00,457 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:11:00,852 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:12:01,297 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:12:03,641 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:12:03,771 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:12:03,925 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:12:04,064 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:12:04,208 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:12:04,584 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:12:04,732 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:12:05,044 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:12:05,191 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:12:05,502 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:12:05,591 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:12:05,836 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:13:01,677 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:14:02,101 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:15:02,572 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:15:03,991 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 23:15:04,347 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 23:15:04,440 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 23:15:04,926 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 23:15:05,021 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 23:15:05,389 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 23:16:03,080 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:16:05,142 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:16:05,269 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:16:05,355 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:16:05,481 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:16:05,570 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:16:05,951 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:16:06,038 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:16:06,333 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:16:06,423 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:16:06,722 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:16:06,810 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:16:07,049 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:17:03,482 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:18:03,881 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:19:04,262 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:20:04,684 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:20:06,951 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:20:07,106 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:20:07,265 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:20:07,404 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:20:07,551 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:20:07,934 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:20:08,024 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:20:08,313 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:20:08,402 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:20:08,705 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:20:08,864 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:20:09,117 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:21:05,018 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:22:05,383 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:23:05,768 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:24:06,190 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:24:08,292 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:24:08,416 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:24:08,573 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:24:08,711 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:24:08,797 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:24:09,168 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:24:09,328 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:24:09,630 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:24:09,737 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:24:10,037 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:24:10,193 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:24:10,450 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:25:06,582 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:26:06,932 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:27:07,340 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:28:07,869 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:28:10,059 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:28:10,196 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:28:10,282 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:28:10,409 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:28:10,552 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:28:10,934 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:28:11,027 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:28:11,314 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:28:11,465 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:28:11,778 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:28:11,934 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:28:12,191 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:29:08,264 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:30:08,671 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:30:10,324 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 23:30:10,690 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for bench-manager.local
+2021-06-11 23:30:10,839 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 23:30:11,261 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for bench-manager.local
+2021-06-11 23:30:11,416 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 23:30:11,801 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for bench-manager.local
+2021-06-11 23:31:09,048 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:32:09,500 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:32:11,935 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:32:12,074 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:32:12,231 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:32:12,369 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:32:12,481 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:32:12,952 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:32:13,145 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:32:13,454 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:32:13,611 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:32:13,927 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:32:14,012 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:32:14,247 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:33:09,898 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:34:10,299 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:35:10,704 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:36:11,171 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:36:13,308 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:36:13,434 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:36:13,588 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:36:13,727 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:36:13,814 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:36:14,187 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:36:14,275 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:36:14,564 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:36:14,704 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:36:15,011 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:36:15,165 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:36:15,419 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:37:11,517 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:38:11,942 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:39:12,386 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:40:12,767 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:40:15,111 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:40:15,250 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:40:15,387 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:40:15,522 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:40:15,677 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:40:16,065 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:40:16,212 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:40:16,515 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local
+2021-06-11 23:40:16,680 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:40:16,998 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for bench-manager.local
+2021-06-11 23:40:17,085 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:40:17,326 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for bench-manager.local
+2021-06-11 23:41:13,161 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:42:13,523 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:43:13,893 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:44:14,387 DEBUG scheduler Queued events for site bench-manager.local
+2021-06-11 23:44:16,538 INFO scheduler Scheduled Job Start: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:44:16,662 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for bench-manager.local
+2021-06-11 23:44:16,801 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:44:16,937 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for bench-manager.local
+2021-06-11 23:44:17,088 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:44:17,478 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for bench-manager.local
+2021-06-11 23:44:17,567 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for bench-manager.local

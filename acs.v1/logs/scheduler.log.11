@@ -1,0 +1,1428 @@
+2021-06-15 02:20:45,387 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:21:45,589 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:22:45,788 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:23:45,971 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:24:46,148 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:25:46,331 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:26:46,503 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:27:46,687 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:28:46,868 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:29:47,003 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:30:47,152 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:31:47,325 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:32:47,478 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:33:47,668 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:34:47,842 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:35:48,023 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:36:48,204 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:37:48,399 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:38:48,581 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:39:48,770 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:40:48,977 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:41:49,152 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:42:49,341 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:43:49,543 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:44:49,725 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:45:49,896 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:46:50,066 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:47:50,249 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:48:50,447 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:49:50,661 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:50:50,864 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:51:51,067 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:52:51,257 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:53:51,448 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:54:51,633 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:55:51,800 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:56:51,993 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:57:52,178 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:58:52,357 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 02:59:52,551 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:00:52,749 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:01:52,943 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:02:53,128 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:03:53,332 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:04:53,508 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:05:53,701 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:06:53,901 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:07:54,091 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:08:54,290 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:09:54,479 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:10:54,699 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:11:54,892 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:12:55,069 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:13:55,274 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:14:55,484 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:15:55,684 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:16:55,923 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:17:56,110 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:18:56,294 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:19:56,522 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:20:56,742 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:21:56,933 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:22:57,123 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:23:57,348 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:24:57,575 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:25:57,788 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:26:58,006 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:27:58,158 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:28:58,347 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:29:58,538 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:30:58,710 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:31:58,855 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:32:58,999 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:33:59,160 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:34:59,350 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:35:59,549 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:36:59,739 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:37:59,941 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:39:00,189 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:40:00,370 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:41:00,547 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:42:00,738 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:43:00,953 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:44:01,130 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:45:01,327 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:46:01,491 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:47:01,648 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:48:01,843 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:49:02,089 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:50:02,246 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:51:02,395 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:52:02,601 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:53:02,802 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:54:03,002 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:55:03,185 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:56:03,386 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:57:03,591 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:58:03,787 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 03:59:03,987 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 04:00:04,221 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 04:01:04,413 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+
+2021-06-15 04:02:04,614 ERROR scheduler Exception in Enqueue Events for Site acs.v1
+Traceback (most recent call last):
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 67, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events
+    queued_jobs = get_jobs(site=site, key='job_type').get(site) or []
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 180, in get_jobs
+    q = get_queue(queue)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 224, in get_queue
+    return Queue(queue, connection=get_redis_conn(), is_async=is_async)
+  File "/home/my_user/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 238, in get_redis_conn
+    raise Exception('redis_queue missing in common_site_config.json')
+Exception: redis_queue missing in common_site_config.json
+

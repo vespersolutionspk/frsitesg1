@@ -1,0 +1,16 @@
+2021-06-14 03:01:02,928 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 03:01:03,130 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for eds.v1
+2021-06-14 03:01:03,263 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 03:01:03,633 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for eds.v1
+2021-06-14 03:01:03,789 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 03:01:04,086 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for eds.v1
+2021-06-14 03:01:04,198 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 03:01:04,496 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for eds.v1
+2021-06-14 03:01:04,630 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for eds.v1
+2021-06-14 03:01:04,870 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for eds.v1
+2021-06-14 03:01:04,992 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 03:01:05,349 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for eds.v1
+2021-06-14 03:01:05,440 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 03:01:05,850 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for eds.v1
+2021-06-14 03:01:06,046 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for eds.v1
+2021-06-14 03:01:06,485 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for eds.v1
